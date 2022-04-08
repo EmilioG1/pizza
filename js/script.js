@@ -33,11 +33,8 @@ $(document).ready(function () {
     let newToppings = [];
     let newSize = $('input:radio[name=size]:checked').val();
     newToppings = $('input[type="checkbox"]:checked').length;
-    console.log(newToppings);
     let newPizza = new Pizza(newToppings, newSize);
-    console.log(newPizza);
     let eatPizza = newPizza.pizzaPrice();
-    console.log(eatPizza);
     $("#test").text(`Your total is $${eatPizza}. Buon Appetito!`);
     $("#hidden").show();
   });

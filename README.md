@@ -18,18 +18,34 @@ Test: "It should return num of toppings * 3 + 10 for variable med"
 Code: myPizza.pizzaPrice()
 Expected Output: 16
 
-Test: "It should take "
-Code: 
-Expected Output: 
+# Pizza Parlor
 
-Test: 
-Code: 
-Expected Output: 
+#### By Emilio Gonzales
 
-Test: 
-Code: 
-Expected Output: 
+#### A webpage taking user's pizza size and toppings preferences and returning the total price.
 
-Test: 
-Code: 
-Expected Output: 
+_[Link to GitHub Directory](https://github.com/EmilioG1/pizza.git)_
+
+## Technologies Used
+* HTML
+* CSS
+* Bootstrap
+* Javascript
+* JQuery
+
+## Description
+_This is a website that will take a users pizza order, using selectors and radio inputs, and will return their order total._
+
+## Setup/Installation Instructions
+* Clone this repository to your desktop
+* Navigate to the top level of pizza main branch
+* Open index.html in your browser
+
+## No Known Bugs
+
+# License
+[MIT](https://choosealicense.com/licenses/mit/)
+
+_If you have any issues or questions don't hesitate to contact me on GitHub, and please feel free to add to this code_
+
+Copyright (c) _2022_ _Emilio Gonzales_
