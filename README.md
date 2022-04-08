@@ -6,7 +6,7 @@ Expected Output: Pizza { toppings: ['basil', 'mozzarella'], size: 'medio'}
 
 Test: "It should show in console if each property is accessed in myPizza object"
 Code: myPizza.toppings; and myPizza.size;
-Expected Output: ['basil', 'mozzerella'] and 'medio'
+Expected Output: ['basil', 'mozzarella'] and 'medio'
 
 Describe Pizza.prototype.pizzaPrice();
 

@@ -20,12 +20,8 @@ Pizza.prototype.pizzaPrice = function () {
   return newPrice;
 }
 
-// instance of pizza object
-const myPizza = new Pizza(['basil', 'mozzarella'], 'medium');
-
 
 // UI Logic
-
 
 $(document).ready(function () {
   $("form#pizza").submit(function (event) {
