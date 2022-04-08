@@ -6,13 +6,6 @@ function Pizza(toppings, size) {
   this.size = size;
 }
 
-function topLoop(array) {
-  let tops = [];
-  for (let i = 0; i <= array; i++) {
-    tops.push(i);
-  }
-}
-
 // prototype for pizza price
 Pizza.prototype.pizzaPrice = function () {
   let newPrice = 0;
@@ -45,7 +38,7 @@ $(document).ready(function () {
     console.log(newPizza);
     let eatPizza = newPizza.pizzaPrice();
     console.log(eatPizza);
-    $("#test").text(eatPizza);
-
+    $("#test").text(`Your total is $${eatPizza}. Buon Appetito!`);
+    $("#hidden").show();
   });
 });

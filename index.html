@@ -10,54 +10,63 @@
 <body>
   <div class="container">
     <h1>Pizza-the-Pie</h1>
-      <form id="pizza">
-        <h3>Toppings</h3>
-          <div class="form-check">
-            <input type="checkbox" class="form-check-input" value="1" name="toppings"id="basil" checked>
-            <label for="basil" class="form-check-label">
-              Basil
-            </label>
-          </div>
-          <div class="form-check">
-            <input type="checkbox" class="form-check-input" value="1" name="toppings" id="mozzarella">
-            <label for="mozzarella" class="form-check-label">
-              Mozzarella
-            </label>
-          </div>
-          <div class="form-check">
-            <input type="checkbox" class="form-check-input" value="1" name="toppings" id="pepperoni">
-            <label for="pepperoni" class="form-check-label">
-              Pepperoni
-            </label>
-          </div>
-          <div class="form-check">
-            <input type="checkbox" class="form-check-input" value="1" name="toppings" id="mushrooms">
-            <label for="mushrooms" class="form-check-label">
-              Mushrooms
-            </label>
-          </div>
-          <div class="form-check">
-            <input type="checkbox" class="form-check-input" value="1" name="toppings" id="olives">
-            <label for="olives" class="form-check-label">
-              Olives
-            </label>
-          </div>
-        <h3 id="size">Size</h3>
-          <div class="form-check">
-            <input type="radio" value="small" class="form-check-input" name="size" id="small" checked>
-            <label for="small" class="form-check-label">Pizza Piccola</label>
-          </div>
-          <div class="form-check">
-            <input type="radio" value="medium" class="form-check-input" name="size" id="medium" >
-            <label for="medium" class="form-check-label">Pizza Media</label>
-          </div>
-          <div class="form-check">
-            <input type="radio" value="large" class="form-check-input" name="size" id="large" >
-            <label for="large" class="form-check-label">Pizza Grande</label>
-          </div>
-          <button class="btn btn-success" type="submit">Place Order</button>
-          <div id="test"></div>
-      </form>
+    <p id="sub">A piccolo taste of the old country, just like Nona used to make it!</p>
+      <div class="row">
+        <div class="col-6" id="col1">
+        <form id="pizza">
+          <h3>Toppings</h3>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" value="1" name="toppings"id="basil" checked>
+              <label for="basil" class="form-check-label">
+                Basil
+              </label>
+            </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" value="1" name="toppings" id="mozzarella">
+              <label for="mozzarella" class="form-check-label">
+                Mozzarella
+              </label>
+            </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" value="1" name="toppings" id="pepperoni">
+              <label for="pepperoni" class="form-check-label">
+                Pepperoni
+              </label>
+            </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" value="1" name="toppings" id="mushrooms">
+              <label for="mushrooms" class="form-check-label">
+                Mushrooms
+              </label>
+            </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" value="1" name="toppings" id="olives">
+              <label for="olives" class="form-check-label">
+                Olives
+              </label>
+            </div>
+          <h3 id="size">Size</h3>
+            <div class="form-check">
+              <input type="radio" value="small" class="form-check-input" name="size" id="small" checked>
+              <label for="small" class="form-check-label">Pizza Piccola</label>
+            </div>
+            <div class="form-check">
+              <input type="radio" value="medium" class="form-check-input" name="size" id="medium" >
+              <label for="medium" class="form-check-label">Pizza Media</label>
+            </div>
+            <div class="form-check">
+              <input type="radio" value="large" class="form-check-input" name="size" id="large" >
+              <label for="large" class="form-check-label">Pizza Grande</label>
+            </div>
+            <button class="btn btn-success" type="submit">Place Order</button>
+            <div id="test"></div>
+        </form>
+        </div>
+        <div class="col-6" id="col2">
+          <img src="img/pizza.png" alt="picture of pizza" id="za">
+          <img src="img/spongza.jpg" alt="spongbob pizza" id="hidden">
+        </div>
+      </div>
   </div>
 </body>
 </html>
