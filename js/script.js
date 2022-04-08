@@ -7,8 +7,9 @@ function Pizza(toppings, size) {
 }
 
 // prototype for pizza price
-Pizza.prototype.pizzaPrice = function () {  
-  return this.toppings.length * 3;
+Pizza.prototype.pizzaPrice = function () {
+  let med = 10
+  return this.toppings.length * 3 + med;
 }
 
 // instance of pizza object

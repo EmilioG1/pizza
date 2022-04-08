@@ -14,9 +14,9 @@ Test: "It should return number of toppings multiplied by 3"
 Code: myPizza.pizzaPrice();
 Expected Output: 6
 
-Test: 
-Code: 
-Expected Output: 
+Test: "It should return num of toppings * 3 + 10 for variable med"
+Code: myPizza.pizzaPrice()
+Expected Output: 16
 
 Test: 
 Code: 
