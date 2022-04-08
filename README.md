@@ -18,7 +18,7 @@ Test: "It should return num of toppings * 3 + 10 for variable med"
 Code: myPizza.pizzaPrice()
 Expected Output: 16
 
-Test: 
+Test: "It should take "
 Code: 
 Expected Output: 
 
