@@ -11,12 +11,12 @@ Expected Output: ['basil', 'mozzarella'] and 'medio'
 Describe Pizza.prototype.pizzaPrice();
 
 Test: "It should return number of toppings multiplied by 3"
-Code: myPizza.pizzaPrice();
+Code: myPizza.pizzaPrice(2);
 Expected Output: 6
 
-Test: "It should return num of toppings * 3 + 10 for variable med"
+Test: "It should return price of two toppping medium pizza"
 Code: myPizza.pizzaPrice()
-Expected Output: 16
+Expected Output: 14.5
 
 # Pizza Parlor
 
